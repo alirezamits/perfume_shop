@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width"> 
+
+
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/flexboxgrid.css">
+    <script src="https://kit.fontawesome.com/80d9c2b87f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>alirezamits_perfume</title>
+</head>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href=""><i class="fa-solid fa-house-chimney"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="nav-right">
+                <div class="register-login-btn">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">register / login</a>
+                </div>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="class slides">
+                <div class="item active" id="slide1">
+                    <img src="./images/slider1.jpg" alt="">
+                </div>
+                <div class="item" id="slide2">
+                    <img src="./images/slider2.jpg" alt="">
+                </div>
+                <div class="item" id="slide3"> 
+                    <img src="./images/slider3.jpg" alt="">
+                </div>
+                <div class="item" id="slide4">
+                    <img src="./images/slider4.jpg" alt="">
+                </div>
+            </div>
+            <div class="buttons">
+              <i onclick="setslide('slide1' , 1)" class="fas fa-circle"></i>
+              <i onclick="setslide('slide2' , 2)" class="fas fa-circle"></i>
+              <i onclick="setslide('slide3' , 3)" class="fas fa-circle"></i>
+              <i onclick="setslide('slide4' , 4)" class="fas fa-circle"></i>
+            </div>
+            </section>
+    </header>
+    <main>
+        <section class="dragble-list">
+            <div id="owl-product" class="owl-carousel owl-theme">
+              <div class="item">
+                  <div class="shoping-card">
+                      <div class="img-sec">
+                             <img src="./images/chanel.jpg" alt="">
+                             <div class="stars">
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                             </div>
+                         </div>
+                         <div class="title">
+                              Chanel
+                         </div>
+                         <div class="buttons">
+                          <div class="right"> 
+                               <span class="price">429$Euro</span>
+                          </div>
+                          <div class="left">
+                            <div class="extend-btn">
+                                 <a class="b-text" href="">favourit</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                             </div>
+                               <div class="extend-btn">
+                                 <a class="b-text" href="">buy</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                             </div>
+                             </div>
+                         </div>
+                        </div>
+              </div>
+              <div class="item">
+                  <div class="shoping-card">
+                      <div class="img-sec">
+                             <img src="./images/Dunhil.jpg" alt="">
+                             <div class="stars">
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                             </div>
+                         </div>
+                         <div class="title">
+                             dunhil-red
+                         </div>
+                         <div class="buttons">
+                          <div class="right"> 
+                               <span class="price">119$Euro</span>
+                          </div>
+                          <div class="left">
+                            <div class="extend-btn">
+                                 <a class="b-text" href="">favourit</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                             </div>
+                               <div class="extend-btn">
+                                 <a class="b-text" href="">buy</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                             </div>
+                             </div>
+                         </div>
+                        </div>
+              </div>
+              <div class="item">
+                  <div class="shoping-card">
+                      <div class="img-sec">
+                             <img src="./images/dunhill-brown.jpg" alt="">
+                             <div class="stars">
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                             </div>
+                         </div>
+                         <div class="title">
+                            dunhill-brown
+                         </div>
+                         <div class="buttons">
+                          <div class="right"> 
+                               <span class="price">99$Euro</span>
+                          </div>
+                          <div class="left">
+                            <div class="extend-btn">
+                                 <a class="b-text" href="">favourit</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                             </div>
+                               <div class="extend-btn">
+                                 <a class="b-text" href="">buy</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                             </div>
+                             </div>
+                         </div>
+                        </div>
+              </div>
+              <div class="item">
+                  <div class="shoping-card">
+                      <div class="img-sec">
+                             <img src="./images/good girl.jpg" alt="">
+                             <div class="stars">
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                             </div>
+                         </div>
+                         <div class="title">
+                             good girl
+                         </div>
+                         <div class="buttons">
+                          <div class="right"> 
+                               <span class="price">239$Euro</span>
+                          </div>
+                          <div class="left">
+                            <div class="extend-btn">
+                                 <a class="b-text" href="">favourit</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                             </div>
+                               <div class="extend-btn">
+                                 <a class="b-text" href="">buy</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                             </div>
+                             </div>
+                         </div>
+                        </div>
+              </div>
+              <div class="item">
+                  <div class="shoping-card">
+                      <div class="img-sec">
+                             <img src="./images/home sport.jpg" alt="">
+                             <div class="stars">
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                             </div>
+                         </div>
+                         <div class="title">
+                             home sport
+                         </div>
+                         <div class="buttons">
+                          <div class="right"> 
+                               <span class="price">379$Euro</span>
+                          </div>
+                          <div class="left">
+                            <div class="extend-btn">
+                                 <a class="b-text" href="">favourit</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                             </div>
+                               <div class="extend-btn">
+                                 <a class="b-text" href="">buy</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                             </div>
+                             </div>
+                         </div>
+                        </div>
+              </div>
+              <div class="item">
+                  <div class="shoping-card">
+                      <div class="img-sec">
+                             <img src="./images/lalique .jpg" alt="">
+                             <div class="stars">
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                             </div>
+                         </div>
+                         <div class="title">
+                            lalique
+                         </div>
+                         <div class="buttons">
+                          <div class="right"> 
+                               <span class="price">169$Euro</span>
+                          </div>
+                          <div class="left">
+                            <div class="extend-btn">
+                                 <a class="b-text" href="">favourit</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                             </div>
+                               <div class="extend-btn">
+                                 <a class="b-text" href="">buy</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                             </div>
+                             </div>
+                         </div>
+                        </div>
+              </div>
+              <div class="item">
+                  <div class="shoping-card">
+                      <div class="img-sec">
+                             <img src="./images/ros.jpg" alt="">
+                             <div class="stars">
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                             </div>
+                         </div>
+                         <div class="title">
+                              Tom ford rose
+                         </div>
+                         <div class="buttons">
+                          <div class="right"> 
+                               <span class="price">95$Euro</span>
+                          </div>
+                          <div class="left">
+                            <div class="extend-btn">
+                                 <a class="b-text" href="">favourit</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                             </div>
+                               <div class="extend-btn">
+                                 <a class="b-text" href="">buy</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                             </div>
+                             </div>
+                         </div>
+                        </div>
+              </div>
+            </div>
+        </section>
+        <section class="super-offer-section">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="super-offer-box">
+                        <span class="super-offer-box-title">
+                          super offer
+                        </span>
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="image-container">
+                                        <img src="./images/savag.jpeg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="spesification">
+                                        <div class="price-row">
+                                            <div class="price">279$ Euro</div>
+                                            <div class="off">47%offer</div>
+                                        </div>
+                                        <div class="title">DIOR savag</div>
+                                        <div class="counter-down">
+                                            <span id="hours">19</span> :
+                                            <span id="minutes">26</span> :
+                                            <span id="seconds">40</span>
+                                        </div>
+                                        <div class="remaining-time">limited time offer</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="banner">
+                        <img src="./images/supper.offer.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product-sec-new">
+            <div class="title">
+                <span>popular perfumes</span>
+              </div>
+            <div class="row">
+               <div class="col-lg-3 col-md-4 col-sm-6 col-vs-12 " >
+                  <div class="shoping-card">
+                      <div class="img-sec">
+                             <img src="./images/blue chanel.jpg" alt="">
+                             <span class="hot-offer">offer</span>
+                             <div class="stars">
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                                 <i class="fa-sharp fa-solid fa-star"></i>
+                             </div>
+                         </div>
+                         <div class="title">
+                             Bleu de Chanel
+                         </div>
+                         <div class="buttons">
+                          <div class="right"> 
+                               <span class="price">379$  Euro</span>
+                          </div>
+                          <div class="left">
+                            <div class="extend-btn">
+                                 <a class="b-text" href="">favourit</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                             </div>
+                               <div class="extend-btn">
+                                 <a class="b-text" href="">buy</a>
+                                 <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                             </div>
+                             </div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-sm-6 col-vs-12 " >
+                         <div class="shoping-card">
+                             <div class="img-sec">
+                             <img src="./images/creed aventus.jpg" alt="">
+                                 <div class="stars">
+                                     <i class="fa-sharp fa-solid fa-star"></i>
+                                     <i class="fa-sharp fa-solid fa-star"></i>
+                                     <i class="fa-sharp fa-solid fa-star"></i>
+                                 </div>
+         
+                             </div>
+                             <div class="title">
+                                 CREED Aventus
+                             </div>
+                             <div class="buttons">
+                                 <div class="right">
+                                     <span class="price">1129$  Euro</span>
+                                 </div>
+                                 <div class="left">
+                                     <div class="extend-btn">
+                                     <a class="b-text" href="">favourit</a>
+                                     <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                 </div>
+                                     <div class="extend-btn">
+                                     <a class="b-text" href="">buy</a>
+                                     <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                 </div>
+                                 </div>
+                             </div> 
+                            </div>
+                         </div>
+                         <div class="col-lg-3 col-md-4 col-sm-6 col-vs-12 " >
+                             <div class="shoping-card">
+                             <div class="img-sec">
+                                     <img src="./images/tom ford tuscan lether.jpg" alt="">
+                                     <span class="hot-offer">offer</span>
+                                     <div class="stars">
+                                         <i class="fa-sharp fa-solid fa-star"></i>
+                                         <i class="fa-sharp fa-solid fa-star"></i>
+                                         <i class="fa-sharp fa-solid fa-star"></i>
+                                     </div>
+             
+                                 </div>
+                                 <div class="title">
+                                     TOM FORD Tuscan Leather
+                                 </div>
+                                 <div class="buttons">
+                                     <div class="right">
+                                         <span class="price">1699$  Euro</span>
+                                     </div>
+                                     <div class="left">
+                                         <div class="extend-btn">
+                                         <a class="b-text" href="">favourit</a>
+                                         <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                     </div>
+                                         <div class="extend-btn">
+                                         <a class="b-text" href="">buy</a>
+                                         <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                     </div>
+                                     </div>
+                               </div>
+                                </div>
+                             </div>
+                             <div class="col-lg-3 col-md-4 col-sm-6 col-vs-12 " >
+                                 <div class="shoping-card">
+                                    <div class="img-sec">
+                                         <img src="./images/dulche gabna  the one.jpg" alt="">
+                                         <div class="stars">
+                                             <i class="fa-sharp fa-solid fa-star"></i>
+                                             <i class="fa-sharp fa-solid fa-star"></i>
+                                             <i class="fa-sharp fa-solid fa-star"></i>
+                                             <i class="fa-sharp fa-solid fa-star"></i>
+                                         </div>
+                 
+                                     </div>
+                                     <div class="title">
+                                         DOLCE & GABBANA - The One
+                                     </div>
+                                     <div class="buttons">
+                                         <div class="right">
+                                             <span class="price">199$  Euro</span>
+                                         </div>
+                                         <div class="left">
+                                             <div class="extend-btn">
+                                             <a class="b-text" href="">favourit</a>
+                                             <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                         </div>
+                                             <div class="extend-btn">
+                                             <a class="b-text" href="">buy</a>
+                                             <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                            </div>
+                                         </div>
+                                     </div>
+                                    </div> 
+                                 </div>
+                          </div>
+                    </div>       
+                 </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="right">
+                    <div class="title">
+                        about us
+                    </div>
+                    <div class="des">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, possimus libero labore dignissimos, a sequi aut tempore quis saepe ut et necessitatibus aliquid eligendi minus nostrum. Aspernatur aliquam neque reiciendis optio sed quod! Impedit, explicabo sit esse dolorem, voluptas praesentium consequuntur nobis non, exercitationem perferendis eaque quos iste est alias!
+                    </div>
+                </div>
+            </div>
+               <div class="col-lg-4">
+                 <div class="left">
+                     <div class="title">
+                        Follow us on social media
+                    </div>
+                    <div class="socials">
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            Copyright © 2023 Alirezamits
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+        responsive
+        :{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+)
+    </script>
+
+</body>
+</html>

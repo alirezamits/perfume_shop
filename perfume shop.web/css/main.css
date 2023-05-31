@@ -1,0 +1,19 @@
+@font-face{
+    font-family: us;
+    src: url(../fonts/us.ttf);
+}
+
+*{
+    direction: ltr;
+    font-family: us;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
